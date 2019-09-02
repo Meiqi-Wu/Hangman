@@ -188,19 +188,6 @@ public class Hangman extends JFrame implements HangmanConstants{
 			};
 			this.getContentPane().add(karelFlipped);
 			
-//			try {
-//				this.bkgndImage = ImageIO.read(new File(BKGND_NAME));
-//			} catch(IOException e) {
-//				println("Cannot load background image :( ");
-//			}
-//			bkgnd = new JComponent() {
-//				public void paintComponent(Graphics g) {
-//					Graphics g2 = g.create();
-//					super.paintComponent(g2);
-//					g2.drawImage(bkgndImage, 0, 0, CANVAS_WIDTH, CANVAS_HEIGHT, null);
-//					g2.dispose();
-//				}
-//			};
 			this.getContentPane().remove(bkgnd);
 			this.getContentPane().add(bkgnd);
 
